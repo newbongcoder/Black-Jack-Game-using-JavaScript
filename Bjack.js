@@ -1,6 +1,6 @@
 let player = 
 {
-	name : "Per",
+	name : "Shovik",
 	chips : 145,
 }
 
@@ -23,7 +23,7 @@ let playerEl= document.getElementById("player-el")
 playerEl.textContent = player.name+" : $ "+ player.chips
 
 
-
+// method to ensure start
 function startGame()
 {
 	isAlive=true
@@ -35,7 +35,7 @@ function startGame()
 	renderGame()
 }
 
-
+// method to does the main function
 function renderGame()
 {
 	cardsEl.textContent = "Cards : "
